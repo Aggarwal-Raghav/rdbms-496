@@ -30,18 +30,18 @@
         <dependency>
             <groupId>org.datanucleus</groupId>
             <artifactId>datanucleus-core</artifactId>
-            <version>[${dn.core.min.ver}, ${dn.core.max.ver})</version>
+            <version>5.2.10</version>
         </dependency>
         <dependency>
             <groupId>org.datanucleus</groupId>
             <artifactId>datanucleus-api-jdo</artifactId>
-            <version>[${dn.api_jdo.min.ver}, ${dn.api_jdo.max.ver})</version>
+            <version>5.2.8</version>
         </dependency>
         <!-- Change to the datanucleus-{datastore} plugin required -->
         <dependency>
             <groupId>org.datanucleus</groupId>
             <artifactId>datanucleus-rdbms</artifactId>
-            <version>[${dn.datastore.min.ver}, ${dn.datastore.max.ver})</version>
+            <version>5.2.10</version>
         </dependency>
 
        <!-- Change to the datastore driver required for your datastore -->
@@ -97,15 +97,15 @@
                 <version>3.8.0</version>
                 <configuration>
                     <encoding>ISO-8859-1</encoding>
-                    <source>17</source>
-                    <target>17</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
 
             <plugin>
                 <groupId>org.datanucleus</groupId>
                 <artifactId>datanucleus-maven-plugin</artifactId>
-                <version>${dn.maven.plugin.ver}</version>
+                <version>5.2.1</version>
                 <configuration>
                     <api>JDO</api>
                     <persistenceUnitName>MyTest</persistenceUnitName>

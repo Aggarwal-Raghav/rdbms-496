@@ -14,7 +14,7 @@
             <property name="javax.jdo.option.ConnectionPassword" value="qwerty@123"/>
             <property name="javax.jdo.option.Mapping" value="mysql"/>
 
-            <property name="datanucleus.schema.autoCreateAll" value="false"/>
+            <property name="datanucleus.schema.autoCreateAll" value="true"/>
             <property name="datanucleus.schema.generateDatabase.mode" value="drop-and-create"/>
         </properties>
     </persistence-unit>
